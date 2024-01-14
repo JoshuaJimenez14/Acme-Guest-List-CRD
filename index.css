@@ -1,0 +1,19 @@
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: antiquewhite;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    border: solid 1px black;
+}
+
+form > * {
+    margin: 0.5rem;
+}
+
+input,button {
+    height: 2rem;
+    margin: 1%;
+}
